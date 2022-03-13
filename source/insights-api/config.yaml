@@ -1,0 +1,4 @@
+operations:
+  - currency: "flux"
+    poolUrl: "https://flux.herominers.com/api/stats_address?address="
+    wallet: "t1VNTLUKB1bamRQ8ExgsrMaM3dfoQGct3bd"

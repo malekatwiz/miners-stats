@@ -1,9 +1,11 @@
 package minerstats
 
 type Worker struct {
-	Name          string  `json:"name"`
-	Hashrate      string  `json:"hashrate"`
-	Currency      string  `json:"currency"`
-	Fiat          string  `json:"fiat"`
-	ExchangeValue float32 `json"exchangeValue"`
+	Name     string `json:"name"`
+	Hashrate string `json:"hashrate"`
+}
+
+type Operation struct {
+	Currency string   `json:"currency"`
+	Workers  []Worker `json:"workers"`
 }
